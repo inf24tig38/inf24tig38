@@ -30,27 +30,27 @@
 
   <fundadores>
     <fundador>
-      <nome>João Silva</nome>
+      <nome>Jorge Espogeira</nome>
       <funcao>Presidente do Conselho Fundador</funcao>
       <ano_fundacao>2025</ano_fundacao>
     </fundador>
     <fundador>
-      <nome>Maria Oliveira</nome>
+      <nome>Gonçalo Cidras</nome>
       <funcao>Vice-presidente</funcao>
       <ano_fundacao>2025</ano_fundacao>
     </fundador>
     <fundador>
-      <nome>Luís Costa</nome>
+      <nome>Cesar Ramos</nome>
       <funcao>Diretor Acadêmico</funcao>
       <ano_fundacao>2025</ano_fundacao>
     </fundador>
     <fundador>
-      <nome>Ana Santos</nome>
+      <nome>Carlos Castro</nome>
       <funcao>Coordenadora de Ensino</funcao>
       <ano_fundacao>2025</ano_fundacao>
     </fundador>
     <fundador>
-      <nome>Carlos Almeida</nome>
+      <nome>Emanuel Ferreira</nome>
       <funcao>Consultor Externo</funcao>
       <ano_fundacao>2025</ano_fundacao>
     </fundador>
