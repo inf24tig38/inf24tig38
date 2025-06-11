@@ -20,7 +20,7 @@ function validateForm() {
     }
 
     alert("Formulário enviado com sucesso!");
-    window.location.href = "../html/principal.html";  
+    window.location.href = "index.html";  
     return true;  
 }
 

@@ -9,7 +9,7 @@ O objetivo foi apresentar informações relevantes sobre a universidade, os seus
 ## 2. Interface com o Utilizador
 
 A interface foi concebida para proporcionar uma navegação clara e simples entre as páginas:  
-- Página Principal (`principal.html`): apresentação da universidade, missão e valores.  
+- Página Principal (`index.html`): apresentação da universidade, missão e valores.  
 - Cursos (`cursos.html`): listagem das unidades curriculares organizadas por área, com interatividade para expandir disciplinas.  
 - Registo (`registo.html`): formulário para inscrição, com validação básica via JavaScript.  
 - Sobre (`sobre.html`): informação histórica detalhada sobre a universidade.
@@ -21,7 +21,7 @@ A estrutura HTML usa marcação semântica adequada, incluindo elementos `<heade
 ## 3. Produto
 
 O conjunto final inclui:  
-- Quatro páginas HTML responsivas com CSS externo (`principal.css`, `cursos.css`, `registo.css`, `sobre.css`).  
+- Quatro páginas HTML responsivas com CSS externo (`index.css`, `cursos.css`, `registo.css`, `sobre.css`).  
 - Documento XML `universidade.xml` com dados institucionais e lista de cursos e inscrições.  
 - Esquema XSD `universidade.xsd` para validação do XML.  
 - Ficheiro JavaScript `script.js` para manipulação DOM e validação de formulário.
