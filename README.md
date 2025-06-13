@@ -2,25 +2,42 @@
 
 # C3 : Product
 
-_Add a product description_
+A inspiração partiu de outros sites de universidades, e a ideia foi criar um site de uma universidade que não existe.
 
 ## 3.1 Instalation
 
-_Describe the process used to install the product. Start by the definition of the organization in Github._
+Local:
+
+[repositório do GitHub](https://github.com/inf24tig38/inf24tig38)
+
+[Abrir index.html num browser](https://github.com/inf24tig38/inf24tig38/blob/main/index.html)
+
+Netlify:
+
+Subida automática através de ligação ao GitHub
+
+[Link para o site no Netlify](https://inf24tig38.netlify.app/)
 
 ## 3.2 Usage
 
-_If any, please add usage instructions, such as required authentication, or product limitations_
+Site totalmente público
+
+Não requer autenticação
+
+Apenas validação básica nos formulários
 
 ## 3.3 Application/Product help
 
-_Are there any visual cues to help the navigation? Code colors? Tooltips that help the user navigate on the website?_  
-_Describe how the graphical interface is organized and how the user can move around._
+Menu visível no topo em todas as páginas
+
+Cores consistentes
+
+Tooltips nos campos do formulário
 
 ## 3.4 Forms
 
-_If any, how are you validating user input on the forms?_
-_Describe with examples._
+HTML5: campos required, type=email, etc.
+Exemplo: pagina de registo
 
 ## 3.5 HTML5 and CSS3 validation
 
@@ -32,41 +49,63 @@ _You can start by adding direct links to the validators:_
 
 ## 3.6 Implementation details
 
-_This is a mandatory table for your report. 
-Show here how you have fullfilled the miminum required objectives.
-All Requirements must have a Usage Example with the code being shown in the table._
+📑 Estrutura mínima HTML:
+Requisito	Exemplo
+Download XML	<a href="universidade.xml" download>Descarregar XML</a>
+Tabela	Ex: cursos.html
+Lista e lista aninhada	<ul><li>Faculdade A<ul><li>Curso X</li></ul></li></ul>
+Destaque (<em>)	usado em frases importantes
+Imagem	<img src="img/logo.png">
+<figure> e <figcaption>	imagem de campus com legenda
+Links internos/externos	<a href="cursos.html">Cursos</a>
+Formulário	inscrição.html com inputs e botão submit
+
+🎨 CSS aplicado:
+Requisito	Exemplo
+Seletor de tipo	body {}
+Seletor de ID	#menuNav {}
+Seletor de classe	.caixa-texto {}
+Pseudo-classe	a:hover
+Atributo	input[type="text"] {}
+Pseudo-elemento	::placeholder
+Combinador	header nav ul li {}
+Realce visual	highlight, hover, font-weight
+Inserção de imagem com CSS	background-image: url(...)
+Elemento escondido	display: none
+Estilo de texto/fonte	font-family, color
+Responsividade	@media (max-width: 768px)
 
 Read [Creating a permanent link to a code snippet](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet) to understand how to link or embed lines of code in markdown.
 
 Page Requirements
 | Requirement | Usage Example |
 | :---: | :---: |
-| At least 4 pages |  Add a link for at least 4 pages. |
-| 1 XML document | Add a link for the document |
-| 1 XSD document | Add a link for the document |
-| CSS file (if any) | Add a link for one of the documents |
+| At least 4 pages | index.html, cursos.html, registo.html, sobre.html |
+| 1 XML document | [Add a link for the document](https://github.com/inf24tig38/inf24tig38/blob/main/xml/universidade.xml) |
+| 1 XSD document | [Add a link for the document](https://github.com/inf24tig38/inf24tig38/blob/main/xml/universidade.xsd) |
+| CSS file (if any) | index.css, cursos.css, registo.css, sobre.css |
 
 Describe how the XML validation was performed.
 
 HTML Minimum requirements (usage of)
 | Requirement | Usage Example |
 | :---: | :---: |
-| XML file download |       |
-| Table |       |
-| List |       |
-| Nested List |       |
-| Highlight | ``` <em>paragraph</em> ``` https://github.com/exemploTrabalho/report_inf-ti/blob/aa7b883c6c0da01d3480c941f7bbdcaa1adf0f12/src/index.html#L11 |
-| Image |      |
-| Figure |   https://github.com/exemploTrabalho/report_inf-ti/blob/f676d24207f24920710211d87ed96dd4c602720e/src/index.html#L4-L6    |
-| Figure Caption      |       |
-| Internal Link |       |
-| External Link |       |
-| Form |       |
+| XML file download | <a href="xml/universidade.xml" download>Descarregar XML</a> (presente no index.html) |
+| Table | Presente em cursos.html |
+| List |<ul> e <li> em index.html e cursos.html|
+| Nested List |<ul><li>Curso<ul><li>Detalhe</li></ul></li></ul> em cursos.html|
+| Highlight | Ex: <em>Inscreve-te já</em>|
+| Image |	<img src="img/campus.jpg">, entre outras|
+| Figure | <figure><img src="img/sobre4k.png"><figcaption>...</figcaption></figure>  |
+| Figure Caption      |<figcaption> nas imagens de apresentação |
+| Internal Link | <a href="registo.html">Inscreve-te</a>     |
+| External Link |<a href="https://netlify.app">Netlify</a> (adicionável em rodapé) |
+| Form |Formulário em registo.html com campos input, select, textarea |
 
 CSS Minimum requirements (usage of/change of)
 | Requirement | Usage Example |
 | :---: | :---: |
-| Type selector |       |
+| Type selector |body {}, header {}|
 | Id selector |       |
 | Class Selector |       |
 | Pseudo-class Selector |       |
@@ -87,7 +126,13 @@ CSS Minimum requirements (usage of/change of)
 
 ## 3.7 Other relevant implementation details
 
-_Show here which valorization elements you added to your work._
+Elemento	                          Exemplo
+JS altera conteúdo	        botão que altera parágrafo
+JS altera estilo	          element.style.color = 'red'
+JS carrega XML	            fetch("universidade.xml")... (se usado)
+<video> ou <audio>	        (opcional)
+CSS Flexbox	                layout responsivo com display: flex
+CSS animações/transições	  transition: all 0.3s
 
 Valorization elements (example)
 | Element | Usage Example |
