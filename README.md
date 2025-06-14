@@ -68,16 +68,16 @@ HTML Minimum requirements (usage of)
 | Requirement | Usage Example |
 | :---: | :---: |
 | XML file download | <a href="xml/universidade.xml" download>Descarregar XML</a> (presente no index.html) |
-| Table | [cursos.html ](https://github.com/inf24tig38/inf24tig38/blob/44ae34270d38d4172412a217de8becf3a9eeadde/cursos.html#L22-L64)|
-| List |<ul> e <li> em index.html e cursos.html|
-| Nested List |<ul><li>Curso<ul><li>Detalhe</li></ul></li></ul> em cursos.html|
+| Table | [cursos.html ](https://github.com/inf24tig38/inf24tig38/blob/cf69c587a22c4a225735c7af66d352351c9627da/sobre.html#L36-L71)|
+| List | [cursos.html ](https://github.com/inf24tig38/inf24tig38/blob/44ae34270d38d4172412a217de8becf3a9eeadde/cursos.html#L22-L64)|
+| Nested List | [cursos.html ](https://github.com/inf24tig38/inf24tig38/blob/44ae34270d38d4172412a217de8becf3a9eeadde/cursos.html#L22-L64)|
 | Highlight | Ex: <em>Inscreve-te já</em>|
-| Image |	<img src="img/campus.jpg">, entre outras|
-| Figure | <figure><img src="img/sobre4k.png"><figcaption>...</figcaption></figure>  |
-| Figure Caption      |<figcaption> nas imagens de apresentação |
+| Image |	[Imagem](https://github.com/inf24tig38/inf24tig38/blob/cf69c587a22c4a225735c7af66d352351c9627da/index.html#L37-L40)|
+| Figure | [Imagem](https://github.com/inf24tig38/inf24tig38/blob/cf69c587a22c4a225735c7af66d352351c9627da/index.html#L37-L40)|
+| Figure Caption  | [Imagem](https://github.com/inf24tig38/inf24tig38/blob/cf69c587a22c4a225735c7af66d352351c9627da/index.html#L37-L40)|
 | Internal Link | <a href="registo.html">Inscreve-te</a>     |
 | External Link | [Localização](https://www.google.com/maps?q=Caxinas,+Vila+do+Conde)  |
-| Form |Formulário em registo.html com campos input, select, textarea |
+| Form | [Registo](https://github.com/inf24tig38/inf24tig38/blob/cf69c587a22c4a225735c7af66d352351c9627da/registo.html#L23-L97) |
 
 CSS Minimum requirements (usage of/change of)
 | Requirement | Usage Example |
