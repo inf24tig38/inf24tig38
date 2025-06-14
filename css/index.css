@@ -241,6 +241,13 @@ figcaption {
   }
 }
 
+section article {
+  background-color: #eef;
+  padding: 12px;
+  margin-top: 20px;
+  border-left: 4px solid navy;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
 
 
 @media (max-width: 480px) {
