@@ -33,13 +33,12 @@ Updates automáticos através de ligação ao GitHub, alterações efetuadas no 
 
 - Tooltips nos campos do formulário
 
-- Botão pulsante para isncrição
+- Botão pulsante para inscrição
 
 ## 3.4 Forms
 
-HTML5: campos required, type=email, etc.
-Exemplo: pagina de registo
-[Validações](https://github.com/inf24tig38/inf24tig38/blob/a64e8f4f71bcd3080b62f90a626d1ca12c9d5e14/registo.html#L24-L50) 
+-HTML5: campos required, type=email, etc.
+-Exemplo: pagina de registo [Validações](https://github.com/inf24tig38/inf24tig38/blob/a64e8f4f71bcd3080b62f90a626d1ca12c9d5e14/registo.html#L24-L50) 
 
 ## 3.5 HTML5 and CSS3 validation
 
