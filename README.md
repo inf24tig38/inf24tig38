@@ -49,33 +49,6 @@ _You can start by adding direct links to the validators:_
 
 ## 3.6 Implementation details
 
-- 📑 Estrutura mínima HTML:
-
-- Download XML	<a href="universidade.xml" download>Descarregar XML</a>
-- Tabela	 [cursos.html](https://inf24tig38.netlify.app/cursos)
-- Lista e lista aninhada	[cursos.html](https://inf24tig38.netlify.app/cursos)
-- Destaque (<em>)	usado em frases importantes
-- Imagem	<img src="img/logo.png">
-- <figure> e <figcaption>	imagem de campus com legenda
-- Link interno [cursos.html](https://inf24tig38.netlify.app/cursos)
-- Link externo	Localização (na barra de menu)
-- Formulário	[registo.html](https://inf24tig38.netlify.app/registo)
-
-- 🎨 CSS aplicado:
-- Requisito	Exemplo
-- Seletor de tipo	body {}
-- Seletor de ID	#menuNav {}
-- Seletor de classe	.caixa-texto {}
-- Pseudo-classe	a:hover
-- Atributo	input[type="text"] {}
-- Pseudo-elemento	::placeholder
-- Combinador	header nav ul li {}
-- Realce visual	highlight, hover, font-weight
-- Inserção de imagem com CSS	background-image: url(...)
-- Elemento escondido	display: none
-- Estilo de texto/fonte	font-family, color
-- Responsividade	@media (max-width: 768px)
-
 Read [Creating a permanent link to a code snippet](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet) to understand how to link or embed lines of code in markdown.
 
 Page Requirements
@@ -95,7 +68,7 @@ HTML Minimum requirements (usage of)
 | Requirement | Usage Example |
 | :---: | :---: |
 | XML file download | <a href="xml/universidade.xml" download>Descarregar XML</a> (presente no index.html) |
-| Table | Presente em cursos.html |
+| Table | [cursos.html ](https://github.com/inf24tig38/inf24tig38/blob/44ae34270d38d4172412a217de8becf3a9eeadde/cursos.html#L22-L64)|
 | List |<ul> e <li> em index.html e cursos.html|
 | Nested List |<ul><li>Curso<ul><li>Detalhe</li></ul></li></ul> em cursos.html|
 | Highlight | Ex: <em>Inscreve-te já</em>|
