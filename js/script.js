@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (autorBtn && modalOverlay && closeBtn) {
         autorBtn.addEventListener('click', () => {
+            mostrarMensagem(); 
             modalOverlay.style.display = 'block';
         });
 
@@ -45,3 +46,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+function mostrarMensagem() {
+  fetch("mensagem.xml")
+    .then(response => response.text())
+    .then(xmlText => {
+      const parser = new DOMParser();
+      const xml = parser.parseFromString(xmlText, "application/xml");
+      const texto = xml.querySelector("texto").textContent;
+      document.getElementById("conteudoModal").innerHTML = texto;
+    });
+}
+
+
