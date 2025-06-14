@@ -102,7 +102,7 @@ HTML Minimum requirements (usage of)
 | Figure | <figure><img src="img/sobre4k.png"><figcaption>...</figcaption></figure>  |
 | Figure Caption      |<figcaption> nas imagens de apresentação |
 | Internal Link | <a href="registo.html">Inscreve-te</a>     |
-| External Link |<a href="https://netlify.app">Netlify</a> (adicionável em rodapé) |
+| External Link | [Localização](https://www.google.com/maps?q=Caxinas,+Vila+do+Conde)  |
 | Form |Formulário em registo.html com campos input, select, textarea |
 
 CSS Minimum requirements (usage of/change of)
@@ -125,7 +125,7 @@ CSS Minimum requirements (usage of/change of)
 | List style | list-style: none, list-style-type: square |
 | Box element style |border, padding, margin, box-shadow |
 | table style | table, th, td com border-collapse e cores|
-| Responsibility style 2 screen sizes | Uso de @media em CSS para diferentes tamanhos (em index.css)|
+| Responsibility style 2 screen sizes | Uso de @media em CSS para diferentes tamanhos de ecrâ|
 
 ## 3.7 Other relevant implementation details
 
@@ -137,7 +137,7 @@ JS carrega XML	            nao existe
 CSS Flexbox	                display: flex usado para layout de menus
 CSS animações/transições	  transition: background-color 0.3s ease; em botões e links
 CSS transform               transform: scale(1.05); em imagens com hover
-CSS animation               nao existe
+CSS animation               Botão inscreve-te
 
 Valorization elements (example)
 | Element | Usage Example |
