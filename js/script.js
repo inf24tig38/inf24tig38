@@ -19,10 +19,17 @@ function validateForm() {
         return false; 
     }
 
-    alert("Formulário enviado com sucesso!");
-    window.location.href = "index.html";  
-    return true;  
+    const som = document.getElementById("somSucesso");
+    if (som) som.play();
+
+    setTimeout(() => {
+        alert("Formulário enviado com sucesso!");
+        window.location.href = "index.html";
+    }, 1500);
+
+    return false;
 }
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const autorBtn = document.getElementById('autorBtn');
