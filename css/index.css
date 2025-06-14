@@ -6,8 +6,8 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    overflow-x: hidden;
     width: 100%;
+    overflow-x: hidden;
     
 }
 
@@ -51,6 +51,16 @@ footer a {
     text-decoration: none;
     font-weight: bold;
 }
+section article {
+  background-color: #384a3d;
+  padding: 5px;
+  max-width: 20%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20%;
+  margin-left: 79%;
+  margin-top: 26%;
+}
+
 
 header {
     background-color: rgba(0, 0, 0, 0.7); 
@@ -93,8 +103,8 @@ nav ul li a:hover {
 
 button {
     padding: 10px 20px;
-    background-color: #384a3d;
-    color: white;
+    background-color: white;
+    color: #384a3d;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -102,6 +112,7 @@ button {
     position: absolute; 
     bottom: 20px; 
     right: 20px; 
+    margin-bottom: 4%;
 }
 
 button:hover {
@@ -133,7 +144,7 @@ figure {
     width: 500px;
     text-align: center;
     margin-left: 50%;
-    margin-top: -10%; 
+    margin-top: -42%; 
 }
 
 figcaption {
@@ -241,13 +252,7 @@ figcaption {
   }
 }
 
-section article {
-  background-color: #eef;
-  padding: 12px;
-  margin-top: 20px;
-  border-left: 4px solid navy;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-}
+
 
 
 @media (max-width: 480px) {
