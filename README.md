@@ -53,12 +53,13 @@ _You can start by adding direct links to the validators:_
 
 - Download XML	<a href="universidade.xml" download>Descarregar XML</a>
 - Tabela	 [cursos.html](https://inf24tig38.netlify.app/cursos)
-- Lista e lista aninhada	<ul><li>Faculdade A<ul><li>Curso X</li></ul></li></ul>
+- Lista e lista aninhada	[cursos.html](https://inf24tig38.netlify.app/cursos)
 - Destaque (<em>)	usado em frases importantes
 - Imagem	<img src="img/logo.png">
 - <figure> e <figcaption>	imagem de campus com legenda
-- Links internos/externos	<a href="cursos.html">Cursos</a>
-- Formulário	inscrição.html com inputs e botão submit
+- Link interno [cursos.html](https://inf24tig38.netlify.app/cursos)
+- Link externo	Localização (na barra de menu)
+- Formulário	[registo.html](https://inf24tig38.netlify.app/registo)
 
 - 🎨 CSS aplicado:
 - Requisito	Exemplo
