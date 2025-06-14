@@ -43,10 +43,12 @@ Updates automáticos através de ligação ao GitHub, alterações efetuadas no 
 ## 3.5 HTML5 and CSS3 validation
 
 _Describe the method used to **validate HTML and CSS**. Don't forget to add details about the used validators. Show the validation results._
-_Add images, tables or reports of the tests performed._
-_You can start by adding direct links to the validators:_
-[HTML Validator fo this repository](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgithub.com%2FexemploTrabalho%2Freport_inf-ti)
-[CSS Validator for this repository](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FexemploTrabalho%2Freport_inf-ti&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- O metodo utilizado foi atravez das ferramentas do W3C onde validei todos os meus html e css, durante as validações encontrei pequenos erros com subtitulos"h2" em falta e mesmo algusn erros ortograficos, no final todos os ficheiros passaram sem erros.
+  
+- | [Validações em Screenshot](https://github.com/inf24tig38/inf24tig38/blob/4382734411c0da485a21df1ccd7e31b3c45ce76a/css/index.css#L65-L92](https://github.com/inf24tig38/inf24tig38/tree/main/Valida%C3%A7%C3%B5es%20W3C)) |
+
+- [HTML Validator for this repository]([https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgithub.com%2FexemploTrabalho%2Freport_inf-ti](https://validator.w3.org/detailed.html#validate-by-upload))
+- [CSS Validator for this repository]([https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FexemploTrabalho%2Freport_inf-ti&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en](https://validator.w3.org/#validate_by_upload))
 
 ## 3.6 Implementation details
 
@@ -64,7 +66,10 @@ Page Requirements
 | CSS file registo | [registo.css](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/css/registo.css#L1-L147)|
 | CSS file sobre | [sobre.css](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/css/sobre.css#L1-L120)|
 
-Describe how the XML validation was performed.
+- As validações dos ficheiros XML e XSD foram realizadas através do site https://www.freeformatter.com/xml-validator-xsd.html.
+- O processo decorreu sem erros, e ambos os ficheiros foram validados com sucesso.
+
+- O validador oficial da W3C encontrava-se indisponível para este tipo de validação no momento da verificação.
 
 HTML Minimum requirements (usage of)
 | Requirement | Usage Example |
