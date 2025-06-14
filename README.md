@@ -60,22 +60,25 @@ Page Requirements
 | page 4 | [sobre.html](https://inf24tig38.netlify.app/sobre) |
 | 1 XML document | [universidade.xml](https://github.com/inf24tig38/inf24tig38/blob/main/xml/universidade.xml) |
 | 1 XSD document | [universidade.xsd](https://github.com/inf24tig38/inf24tig38/blob/main/xml/universidade.xsd) |
-| CSS file (if any) | index.css, cursos.css, registo.css, sobre.css |
+| CSS file cursos | [cursos.css](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/css/cursos.css#L1-L127)|
+| CSS file index | [index.css](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/css/index.css#L1-L273)|
+| CSS file registo | [registo.css](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/css/registo.css#L1-L147)|
+| CSS file sobre | [sobre.css](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/css/sobre.css#L1-L120)|
 
 Describe how the XML validation was performed.
 
 HTML Minimum requirements (usage of)
 | Requirement | Usage Example |
 | :---: | :---: |
-| XML file download | <a href="xml/universidade.xml" download>Descarregar XML</a> (presente no index.html) |
+| XML file download | [Descarregar xml](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/index.html#L54) |
 | Table | [cursos.html ](https://github.com/inf24tig38/inf24tig38/blob/cf69c587a22c4a225735c7af66d352351c9627da/sobre.html#L36-L71)|
 | List | [cursos.html ](https://github.com/inf24tig38/inf24tig38/blob/44ae34270d38d4172412a217de8becf3a9eeadde/cursos.html#L22-L64)|
 | Nested List | [cursos.html ](https://github.com/inf24tig38/inf24tig38/blob/44ae34270d38d4172412a217de8becf3a9eeadde/cursos.html#L22-L64)|
-| Highlight | Ex: <em>Inscreve-te já</em>|
+| Highlight | [Inscreve-te já](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/index.html#L37) |
 | Image |	[Imagem](https://github.com/inf24tig38/inf24tig38/blob/cf69c587a22c4a225735c7af66d352351c9627da/index.html#L37-L40)|
 | Figure | [Imagem](https://github.com/inf24tig38/inf24tig38/blob/cf69c587a22c4a225735c7af66d352351c9627da/index.html#L37-L40)|
 | Figure Caption  | [Imagem](https://github.com/inf24tig38/inf24tig38/blob/cf69c587a22c4a225735c7af66d352351c9627da/index.html#L37-L40)|
-| Internal Link | <a href="registo.html">Inscreve-te</a>     |
+| Internal Link | [Inscreve-te já](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/index.html#L37) |
 | External Link | [Localização](https://www.google.com/maps?q=Caxinas,+Vila+do+Conde)  |
 | Form | [Registo](https://github.com/inf24tig38/inf24tig38/blob/cf69c587a22c4a225735c7af66d352351c9627da/registo.html#L23-L97) |
 
