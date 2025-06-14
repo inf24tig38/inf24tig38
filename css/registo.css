@@ -32,7 +32,7 @@ body {
 .campo input[type="text"],.campo input[type="email"],.campo input[type="password"], .campo select, .campo textarea{
     padding: 0.2em;
     border: 1px solid black;
-    box-shadow: 2px 2px 2px rbga(0,0,0,0.2);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: block;
     border-radius: 15px;
     width: 50%;
