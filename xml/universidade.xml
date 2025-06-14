@@ -5,54 +5,31 @@
   </historia>
 
   <cursos>
-    <curso>
-      <nome>Ciências do Mar</nome>
-      <departamento>Ciências Naturais</departamento>
-      <grau>Licenciatura</grau>
-    </curso>
-    <curso>
-      <nome>Tecnologias da Informação</nome>
-      <departamento>Engenharia Informática</departamento>
-      <grau>Licenciatura</grau>
-    </curso>
+    <curso><nome>Artes Multimédia</nome><departamento>Artes</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Ciências da Comunicação</nome><departamento>Comunicação</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Informática</nome><departamento>Engenharia Informática</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Relações Públicas e Gestão de Comunicação</nome><departamento>Comunicação</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Tecnologias de Comunicação Multimédia</nome><departamento>Tecnologia</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Criminologia</nome><departamento>Ciências Sociais</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Psicologia</nome><departamento>Ciências Sociais</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Educação Física e Desporto</nome><departamento>Desporto</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Gestão de Desporto</nome><departamento>Desporto</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Energias Renováveis</nome><departamento>Engenharia</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Gestão de Empresas</nome><departamento>Gestão</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Gestão de Marketing</nome><departamento>Gestão</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Gestão de Recursos Humanos</nome><departamento>Gestão</departamento><grau>Licenciatura</grau></curso>
+    <curso><nome>Turismo</nome><departamento>Turismo</departamento><grau>Licenciatura</grau></curso>
   </cursos>
 
   <inscricoes>
     <inscricao>
-      <nome>Ana Sousa</nome>
-      <email>ana@mail.com</email>
-      <genero>Feminino</genero>
+      <nome>Exemplo Teste</nome>
+      <email>teste@caxinas.pt</email>
+      <password>segredo123</password>
+      <genero>Outro</genero>
       <grau_academico>12º ano</grau_academico>
-      <curso>Ciências do Mar</curso>
-      <mensagem>Gostava de saber se há alojamento para estudantes.</mensagem>
+      <licenciatura>Informática</licenciatura>
+      <mensagem>Estou interessado em saber mais sobre alojamento e bolsas.</mensagem>
     </inscricao>
   </inscricoes>
-
-  <fundadores>
-    <fundador>
-      <nome>Jorge Espogeira</nome>
-      <funcao>Presidente do Conselho Fundador</funcao>
-      <ano_fundacao>2025</ano_fundacao>
-    </fundador>
-    <fundador>
-      <nome>Gonçalo Cidras</nome>
-      <funcao>Vice-presidente</funcao>
-      <ano_fundacao>2025</ano_fundacao>
-    </fundador>
-    <fundador>
-      <nome>Cesar Ramos</nome>
-      <funcao>Diretor Acadêmico</funcao>
-      <ano_fundacao>2025</ano_fundacao>
-    </fundador>
-    <fundador>
-      <nome>Carlos Castro</nome>
-      <funcao>Coordenadora de Ensino</funcao>
-      <ano_fundacao>2025</ano_fundacao>
-    </fundador>
-    <fundador>
-      <nome>Emanuel Ferreira</nome>
-      <funcao>Consultor Externo</funcao>
-      <ano_fundacao>2025</ano_fundacao>
-    </fundador>
-  </fundadores>
 </universidade>
