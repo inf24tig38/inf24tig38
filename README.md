@@ -10,7 +10,7 @@ Local:
 
 [repositório do GitHub](https://github.com/inf24tig38/inf24tig38)
 
-[Abrir index.html num browser](https://github.com/inf24tig38/inf24tig38/blob/main/index.html)
+[index.html](https://github.com/inf24tig38/inf24tig38/blob/main/index.html)
 
 Netlify:
 
@@ -20,19 +20,19 @@ Subida automática através de ligação ao GitHub
 
 ## 3.2 Usage
 
-Site totalmente público
+- Site totalmente público
 
-Não requer autenticação
+- Não requer autenticação
 
-Apenas validação básica nos formulários
+- Apenas validação básica nos formulários
 
 ## 3.3 Application/Product help
 
-Menu visível no topo em todas as páginas
+- Menu visível no topo em todas as páginas
 
-Cores consistentes
+- Cores consistentes
 
-Tooltips nos campos do formulário
+- Tooltips nos campos do formulário
 
 ## 3.4 Forms
 
@@ -109,33 +109,35 @@ CSS Minimum requirements (usage of/change of)
 | Requirement | Usage Example |
 | :---: | :---: |
 | Type selector |body {}, header {}|
-| Id selector |       |
-| Class Selector |       |
-| Pseudo-class Selector |       |
-| Attribute Selector |       |
-| Pseudo-element Selector |       |
-| Combinator Selector |       |
-| Change Highlight style |       |
-| Image insertion |       |
-| Hide an element |       |
-| Text style |       |
-| Font style |       |
-| Background style |       |
-| float/position style |       |
-| List style |       |
-| Box element style |       |
-| table style |       |
-| Responsibility style 2 screen sizes |       |
+| Id selector | #menuNav {} |
+| Class Selector | .conteudo {}  |
+| Pseudo-class Selector | a:hover {} |
+| Attribute Selector | input[type="text"] {} |
+| Pseudo-element Selector | ::placeholder {}  |
+| Combinator Selector |section article {} |
+| Change Highlight style |font-weight: bold;, background-color em textos destacados|
+| Image insertion | background-image: url(...) (em botões ou header)|
+| Hide an element | .invisivel { display: none; } |
+| Text style | color, font-size, font-weight |
+| Font style |font-family: Arial, sans-serif|
+| Background style |background-color, background-image|
+| float/position style | float: left, position: relative|
+| List style | list-style: none, list-style-type: square |
+| Box element style |border, padding, margin, box-shadow |
+| table style | table, th, td com border-collapse e cores|
+| Responsibility style 2 screen sizes | Uso de @media em CSS para diferentes tamanhos (em index.css)|
 
 ## 3.7 Other relevant implementation details
 
 Elemento	                          Exemplo
-JS altera conteúdo	        botão que altera parágrafo
-JS altera estilo	          element.style.color = 'red'
-JS carrega XML	            fetch("universidade.xml")... (se usado)
-<video> ou <audio>	        (opcional)
-CSS Flexbox	                layout responsivo com display: flex
-CSS animações/transições	  transition: all 0.3s
+JS altera conteúdo	        script.js tem função mostrarMensagem() que altera texto de um div
+JS altera estilo	          element.style.backgroundColor = 'lightblue' em interações
+JS carrega XML	            nao existe
+<video> ou <audio>	        nao existe
+CSS Flexbox	                display: flex usado para layout de menus
+CSS animações/transições	  transition: background-color 0.3s ease; em botões e links
+CSS transform               transform: scale(1.05); em imagens com hover
+CSS animation               nao existe
 
 Valorization elements (example)
 | Element | Usage Example |
