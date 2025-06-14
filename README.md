@@ -2,21 +2,18 @@
 
 # C3 : Product
 
-A inspiração partiu de outros sites de universidades, e a ideia foi criar um site de uma universidade que não existe.
+Este trabalho foi desenvolvido no âmbito da licenciatura em Informática (1.º ano) na disciplina de Tecnologia de Internet e tem como objetivo aplicar os conhecimentos adquiridos nas aulas sobre desenvolvimento web.
+A inspiração para o projeto surgiu após observar vários sites de universidades reais, o que me levou a imaginar e criar o site de uma universidade fictícia: a Universidade das Caxinas.
+
+O principal foco não foi criar um site profissional, mas sim explorar e praticar o uso das várias ferramentas ensinadas, como HTML5, CSS3, JavaScript, XML e XSD.
+Ao longo do projeto, tentei aplicar o máximo possível dos conceitos abordados nas aulas, experimentando diferentes funcionalidades e efeitos para consolidar a aprendizagem de forma prática.
 
 ## 3.1 Instalation
 
-Local:
+[Repositório do GitHub](https://github.com/inf24tig38/inf24tig38)
+Updates automáticos através de ligação ao GitHub, alterações efetuadas no visual studio são automaticamente implementadas atravez do upload para o github e de seguida paa o Netlify
 
-[repositório do GitHub](https://github.com/inf24tig38/inf24tig38)
-
-[index.html](https://github.com/inf24tig38/inf24tig38/blob/main/index.html)
-
-Netlify:
-
-Subida automática através de ligação ao GitHub
-
-[Link para o site no Netlify](https://inf24tig38.netlify.app/)
+[WebSite no Netlify](https://inf24tig38.netlify.app/)
 
 ## 3.2 Usage
 
@@ -26,18 +23,22 @@ Subida automática através de ligação ao GitHub
 
 - Apenas validação básica nos formulários
 
+- Totalmente intuitivo
+
 ## 3.3 Application/Product help
 
-- Menu visível no topo em todas as páginas
+- Menu visível no topo em todas as páginas com redirecionamento
 
 - Cores consistentes
 
 - Tooltips nos campos do formulário
 
+- Botão pulsante para inscrição
+
 ## 3.4 Forms
 
-HTML5: campos required, type=email, etc.
-Exemplo: pagina de registo
+- HTML5: campos required, type=email, etc.
+- Exemplo: pagina de registo [Validações](https://github.com/inf24tig38/inf24tig38/blob/a64e8f4f71bcd3080b62f90a626d1ca12c9d5e14/registo.html#L24-L50) 
 
 ## 3.5 HTML5 and CSS3 validation
 
@@ -48,8 +49,6 @@ _You can start by adding direct links to the validators:_
 [CSS Validator for this repository](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FexemploTrabalho%2Freport_inf-ti&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## 3.6 Implementation details
-
-Read [Creating a permanent link to a code snippet](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet) to understand how to link or embed lines of code in markdown.
 
 Page Requirements
 | Requirement | Usage Example |
@@ -106,29 +105,19 @@ CSS Minimum requirements (usage of/change of)
 
 ## 3.7 Other relevant implementation details
 
-Elemento	                          Exemplo
-JS altera conteúdo	        script.js tem função mostrarMensagem() que altera texto de um div
-JS altera estilo	          element.style.backgroundColor = 'lightblue' em interações
-JS carrega XML	            nao existe
-<video> ou <audio>	        nao existe
-CSS Flexbox	                display: flex usado para layout de menus
-CSS animações/transições	  transition: background-color 0.3s ease; em botões e links
-CSS transform               transform: scale(1.05); em imagens com hover
-CSS animation               Botão inscreve-te
-
 Valorization elements (example)
 | Element | Usage Example |
 | :---: | :---: |
-| With Js, alter element content |       |
-| With Js, alter element style |       |
-| With Js, load xml and change element contents |       |
-| &lt;video&gt; element |       |
-| &lt;audio&gt; element |       |
-| &lt;canvas&gt; element |       |
-| With CSS, Flexbox |       |
-| With CSS, transiction |       |
-| With CSS, transform |       |
-| With CSS, animation |       |
+| With Js, alter element content |[Botão Autor](https://github.com/inf24tig38/inf24tig38/blob/0528b3164e3dded33c7cdc9d155c70ecb39144e5/js/script.js#L27-L47 ) |     
+| With Js, alter element style |[Botão Autor](https://github.com/inf24tig38/inf24tig38/blob/0528b3164e3dded33c7cdc9d155c70ecb39144e5/js/script.js#L27-L47 ) | 
+| With Js, load xml and change element contents |[Botão Autor XML](https://github.com/inf24tig38/inf24tig38/blob/2c2dc52b5702ebd174d69f38d23aac6afbd4a2fc/js/script.js#L27-L59) |       
+| &lt;video&gt; element |  Não tem     |
+| &lt;audio&gt; element |[Audio Palmas](https://github.com/inf24tig38/inf24tig38/blob/c7f7bb60012fd1870444f02da283cd63cd3cc2bf/js/script.js#L22) |  
+| &lt;canvas&gt; element |   Não tem    |
+| With CSS, Flexbox |[Footer ](https://github.com/inf24tig38/inf24tig38/blob/2c2dc52b5702ebd174d69f38d23aac6afbd4a2fc/css/index.css#L37-L47) |       
+| With CSS, transiction |[Backgound color ](https://github.com/inf24tig38/inf24tig38/blob/2c2dc52b5702ebd174d69f38d23aac6afbd4a2fc/css/registo.css#L71) |   
+| With CSS, transform |[Transform ](https://github.com/inf24tig38/inf24tig38/blob/2c2dc52b5702ebd174d69f38d23aac6afbd4a2fc/css/index.css#L173) |  
+| With CSS, animation |[Animação - Botão inscreve-te ](https://github.com/inf24tig38/inf24tig38/blob/2c2dc52b5702ebd174d69f38d23aac6afbd4a2fc/css/index.css#L231-L253) |   
 | (...) |       |
 
 
