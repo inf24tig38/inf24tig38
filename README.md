@@ -89,9 +89,9 @@ CSS Minimum requirements (usage of/change of)
 | Id selector | [Menu Nav](https://github.com/inf24tig38/inf24tig38/blob/4382734411c0da485a21df1ccd7e31b3c45ce76a/css/index.css#L65-L92) |
 | Class Selector |[Disciplinas](https://github.com/inf24tig38/inf24tig38/blob/4382734411c0da485a21df1ccd7e31b3c45ce76a/css/cursos.css#L73-L76) |
 | Pseudo-class Selector |[Menu Nav-a:hover ](https://github.com/inf24tig38/inf24tig38/blob/4382734411c0da485a21df1ccd7e31b3c45ce76a/css/cursos.css#L73-L76) |
-| Attribute Selector | input[type="text"] {} | |[Disciplinas](https://github.com/inf24tig38/inf24tig38/blob/4382734411c0da485a21df1ccd7e31b3c45ce76a/css/cursos.css#L73-L76) | em falta
-| Pseudo-element Selector | ::placeholder {}  | |[Disciplinas](https://github.com/inf24tig38/inf24tig38/blob/4382734411c0da485a21df1ccd7e31b3c45ce76a/css/cursos.css#L73-L76) |
-| Combinator Selector |section article {} | |[Disciplinas](https://github.com/inf24tig38/inf24tig38/blob/4382734411c0da485a21df1ccd7e31b3c45ce76a/css/cursos.css#L73-L76) |
+| Attribute Selector |[Formulário input[type="text"](https://github.com/inf24tig38/inf24tig38/blob/a907c554044655b7808d08fc2759e3eb6ba73946/css/registo.css#L32-L39) |
+| Pseudo-element Selector |[::placeholder](https://github.com/inf24tig38/inf24tig38/blob/fe2e8e6b27722fc6b72a3629246fd3aeca9cd51e/css/registo.css#L146-L149) |
+| Combinator Selector |[Artigo-section article](https://github.com/inf24tig38/inf24tig38/blob/fe2e8e6b27722fc6b72a3629246fd3aeca9cd51e/css/index.css#L244-L250) |
 | Change Highlight style |[Palavras Destacadas](https://github.com/inf24tig38/inf24tig38/blob/4382734411c0da485a21df1ccd7e31b3c45ce76a/css/index.css#L123-L128) |
 | Image insertion |[Imagem de Fundo](https://github.com/inf24tig38/inf24tig38/blob/4382734411c0da485a21df1ccd7e31b3c45ce76a/css/index.css#L4) |
 | Hide an element |[Janela Sobreposição](https://github.com/inf24tig38/inf24tig38/blob/4382734411c0da485a21df1ccd7e31b3c45ce76a/css/index.css#L152-L158) |
