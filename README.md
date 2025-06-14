@@ -81,8 +81,8 @@ Page Requirements
 | Requirement | Usage Example |
 | :---: | :---: |
 | At least 4 pages | index.html, cursos.html, registo.html, sobre.html |
-| 1 XML document | [Add a link for the document](https://github.com/inf24tig38/inf24tig38/blob/main/xml/universidade.xml) |
-| 1 XSD document | [Add a link for the document](https://github.com/inf24tig38/inf24tig38/blob/main/xml/universidade.xsd) |
+| 1 XML document | [universidade.xml](https://github.com/inf24tig38/inf24tig38/blob/main/xml/universidade.xml) |
+| 1 XSD document | [universidade.xsd](https://github.com/inf24tig38/inf24tig38/blob/main/xml/universidade.xsd) |
 | CSS file (if any) | index.css, cursos.css, registo.css, sobre.css |
 
 Describe how the XML validation was performed.
