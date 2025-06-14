@@ -10,17 +10,10 @@ Ao longo do projeto, tentei aplicar o máximo possível dos conceitos abordados 
 
 ## 3.1 Instalation
 
-Local:
-
 [Repositório do GitHub](https://github.com/inf24tig38/inf24tig38)
+Updates automáticos através de ligação ao GitHub, alterações efetuadas no visual studio são automaticamente implementadas atravez do upload para o github e de seguida paa o Netlify
 
-[index.html](https://github.com/inf24tig38/inf24tig38/blob/main/index.html)
-
-Netlify:
-
-Subida automática através de ligação ao GitHub
-
-[Site no Netlify](https://inf24tig38.netlify.app/)
+[WebSite no Netlify](https://inf24tig38.netlify.app/)
 
 ## 3.2 Usage
 
@@ -29,6 +22,8 @@ Subida automática através de ligação ao GitHub
 - Não requer autenticação
 
 - Apenas validação básica nos formulários
+
+- Totalmente intuitivo
 
 ## 3.3 Application/Product help
 
@@ -44,6 +39,7 @@ Subida automática através de ligação ao GitHub
 
 HTML5: campos required, type=email, etc.
 Exemplo: pagina de registo
+[Validações](https://github.com/inf24tig38/inf24tig38/blob/a64e8f4f71bcd3080b62f90a626d1ca12c9d5e14/registo.html#L24-L50) 
 
 ## 3.5 HTML5 and CSS3 validation
 
@@ -54,8 +50,6 @@ _You can start by adding direct links to the validators:_
 [CSS Validator for this repository](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FexemploTrabalho%2Freport_inf-ti&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## 3.6 Implementation details
-
-Read [Creating a permanent link to a code snippet](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet) to understand how to link or embed lines of code in markdown.
 
 Page Requirements
 | Requirement | Usage Example |
