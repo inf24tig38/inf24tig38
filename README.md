@@ -11,6 +11,7 @@ Ao longo do projeto, tentei aplicar o máximo possível dos conceitos abordados 
 ## 3.1 Instalation
 
 [Repositório do GitHub](https://github.com/inf24tig38/inf24tig38)
+
 Updates automáticos através de ligação ao GitHub, alterações efetuadas no visual studio são automaticamente implementadas atravez do upload para o github e de seguida paa o Netlify
 
 [WebSite no Netlify](https://inf24tig38.netlify.app/)
