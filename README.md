@@ -49,31 +49,31 @@ _You can start by adding direct links to the validators:_
 
 ## 3.6 Implementation details
 
-📑 Estrutura mínima HTML:
-Requisito	Exemplo
-Download XML	<a href="universidade.xml" download>Descarregar XML</a>
-Tabela	Ex: cursos.html
-Lista e lista aninhada	<ul><li>Faculdade A<ul><li>Curso X</li></ul></li></ul>
-Destaque (<em>)	usado em frases importantes
-Imagem	<img src="img/logo.png">
-<figure> e <figcaption>	imagem de campus com legenda
-Links internos/externos	<a href="cursos.html">Cursos</a>
-Formulário	inscrição.html com inputs e botão submit
+- 📑 Estrutura mínima HTML:
+- Requisito	Exemplo
+- Download XML	<a href="universidade.xml" download>Descarregar XML</a>
+- Tabela	Ex: cursos.html
+- Lista e lista aninhada	<ul><li>Faculdade A<ul><li>Curso X</li></ul></li></ul>
+- Destaque (<em>)	usado em frases importantes
+- Imagem	<img src="img/logo.png">
+- <figure> e <figcaption>	imagem de campus com legenda
+- Links internos/externos	<a href="cursos.html">Cursos</a>
+- Formulário	inscrição.html com inputs e botão submit
 
-🎨 CSS aplicado:
-Requisito	Exemplo
-Seletor de tipo	body {}
-Seletor de ID	#menuNav {}
-Seletor de classe	.caixa-texto {}
-Pseudo-classe	a:hover
-Atributo	input[type="text"] {}
-Pseudo-elemento	::placeholder
-Combinador	header nav ul li {}
-Realce visual	highlight, hover, font-weight
-Inserção de imagem com CSS	background-image: url(...)
-Elemento escondido	display: none
-Estilo de texto/fonte	font-family, color
-Responsividade	@media (max-width: 768px)
+- 🎨 CSS aplicado:
+- Requisito	Exemplo
+- Seletor de tipo	body {}
+- Seletor de ID	#menuNav {}
+- Seletor de classe	.caixa-texto {}
+- Pseudo-classe	a:hover
+- Atributo	input[type="text"] {}
+- Pseudo-elemento	::placeholder
+- Combinador	header nav ul li {}
+- Realce visual	highlight, hover, font-weight
+- Inserção de imagem com CSS	background-image: url(...)
+- Elemento escondido	display: none
+- Estilo de texto/fonte	font-family, color
+- Responsividade	@media (max-width: 768px)
 
 Read [Creating a permanent link to a code snippet](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet) to understand how to link or embed lines of code in markdown.
 
