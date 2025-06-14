@@ -106,29 +106,19 @@ CSS Minimum requirements (usage of/change of)
 
 ## 3.7 Other relevant implementation details
 
-Elemento	                          Exemplo
-JS altera conteúdo	        script.js tem função mostrarMensagem() que altera texto de um div
-JS altera estilo	          element.style.backgroundColor = 'lightblue' em interações
-JS carrega XML	            nao existe
-<video> ou <audio>	        nao existe
-CSS Flexbox	                display: flex usado para layout de menus
-CSS animações/transições	  transition: background-color 0.3s ease; em botões e links
-CSS transform               transform: scale(1.05); em imagens com hover
-CSS animation               Botão inscreve-te
-
 Valorization elements (example)
 | Element | Usage Example |
 | :---: | :---: |
-| With Js, alter element content |       |
-| With Js, alter element style |       |
-| With Js, load xml and change element contents |       |
-| &lt;video&gt; element |       |
-| &lt;audio&gt; element |       |
-| &lt;canvas&gt; element |       |
-| With CSS, Flexbox |       |
-| With CSS, transiction |       |
-| With CSS, transform |       |
-| With CSS, animation |       |
+| With Js, alter element content |[Botão Autor](https://github.com/inf24tig38/inf24tig38/blob/0528b3164e3dded33c7cdc9d155c70ecb39144e5/js/script.js#L27-L47 ) |     
+| With Js, alter element style |[Botão Autor](https://github.com/inf24tig38/inf24tig38/blob/0528b3164e3dded33c7cdc9d155c70ecb39144e5/js/script.js#L27-L47 ) | 
+| With Js, load xml and change element contents |[Botão Autor XML](https://github.com/inf24tig38/inf24tig38/blob/2c2dc52b5702ebd174d69f38d23aac6afbd4a2fc/js/script.js#L27-L59) |       
+| &lt;video&gt; element |  Não tem     |
+| &lt;audio&gt; element ||[Audio Palmas](https://github.com/inf24tig38/inf24tig38/blob/c7f7bb60012fd1870444f02da283cd63cd3cc2bf/js/script.js#L22) |  
+| &lt;canvas&gt; element |   Não tem    |
+| With CSS, Flexbox |[Footer ](https://github.com/inf24tig38/inf24tig38/blob/2c2dc52b5702ebd174d69f38d23aac6afbd4a2fc/css/index.css#L37-L47) |       
+| With CSS, transiction |[Backgound color ](https://github.com/inf24tig38/inf24tig38/blob/2c2dc52b5702ebd174d69f38d23aac6afbd4a2fc/css/registo.css#L71) |   
+| With CSS, transform |[Transform ](https://github.com/inf24tig38/inf24tig38/blob/2c2dc52b5702ebd174d69f38d23aac6afbd4a2fc/css/index.css#L173) |  
+| With CSS, animation |  |[Animação - Botão inscreve-te ](https://github.com/inf24tig38/inf24tig38/blob/2c2dc52b5702ebd174d69f38d23aac6afbd4a2fc/css/index.css#L231-L253) |      |
 | (...) |       |
 
 
