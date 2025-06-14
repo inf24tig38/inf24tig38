@@ -2,13 +2,17 @@
 
 # C3 : Product
 
-A inspiração partiu de outros sites de universidades, e a ideia foi criar um site de uma universidade que não existe.
+Este trabalho foi desenvolvido no âmbito da licenciatura em Informática (1.º ano) na disciplina de Tecnologia de Internet e tem como objetivo aplicar os conhecimentos adquiridos nas aulas sobre desenvolvimento web.
+A inspiração para o projeto surgiu após observar vários sites de universidades reais, o que me levou a imaginar e criar o site de uma universidade fictícia: a Universidade das Caxinas.
+
+O principal foco não foi criar um site profissional, mas sim explorar e praticar o uso das várias ferramentas ensinadas, como HTML5, CSS3, JavaScript, XML e XSD.
+Ao longo do projeto, tentei aplicar o máximo possível dos conceitos abordados nas aulas, experimentando diferentes funcionalidades e efeitos para consolidar a aprendizagem de forma prática.
 
 ## 3.1 Instalation
 
 Local:
 
-[repositório do GitHub](https://github.com/inf24tig38/inf24tig38)
+[Repositório do GitHub](https://github.com/inf24tig38/inf24tig38)
 
 [index.html](https://github.com/inf24tig38/inf24tig38/blob/main/index.html)
 
@@ -16,7 +20,7 @@ Netlify:
 
 Subida automática através de ligação ao GitHub
 
-[Link para o site no Netlify](https://inf24tig38.netlify.app/)
+[Site no Netlify](https://inf24tig38.netlify.app/)
 
 ## 3.2 Usage
 
@@ -28,11 +32,13 @@ Subida automática através de ligação ao GitHub
 
 ## 3.3 Application/Product help
 
-- Menu visível no topo em todas as páginas
+- Menu visível no topo em todas as páginas com redirecionamento
 
 - Cores consistentes
 
 - Tooltips nos campos do formulário
+
+- Botão pulsante para isncrição
 
 ## 3.4 Forms
 
