@@ -50,9 +50,9 @@ _You can start by adding direct links to the validators:_
 ## 3.6 Implementation details
 
 - 📑 Estrutura mínima HTML:
-- Requisito	Exemplo
+
 - Download XML	<a href="universidade.xml" download>Descarregar XML</a>
-- Tabela	Ex: cursos.html
+- Tabela	 [cursos.html](https://inf24tig38.netlify.app/cursos)
 - Lista e lista aninhada	<ul><li>Faculdade A<ul><li>Curso X</li></ul></li></ul>
 - Destaque (<em>)	usado em frases importantes
 - Imagem	<img src="img/logo.png">
