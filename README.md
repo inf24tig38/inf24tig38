@@ -42,9 +42,11 @@ Updates automáticos através de ligação ao GitHub, alterações efetuadas no 
 
 ## 3.5 HTML5 and CSS3 validation
 
-- O método utilizado foi através das ferramentas oficiais do W3C, onde validei todos os ficheiros HTML e CSS do projeto.
-- Durante o processo de validação, foram detetados pequenos avisos, como a ausência de subtítulos como "<h2>" em algumas secções e alguns erros ortográficos.
-- Após as devidas correções, todos os ficheiros foram validados com sucesso, sem erros.
+O método utilizado foi através das ferramentas oficiais do W3C, onde validei todos os ficheiros HTML e CSS do projeto.
+
+Durante o processo de validação, foram detetados pequenos avisos, como a ausência de subtítulos em algumas secções e alguns erros ortográficos.
+
+Após as devidas correções, todos os ficheiros foram validados com sucesso, sem erros.
   
 - [Validações em Screenshot](https://github.com/inf24tig38/inf24tig38/blob/4382734411c0da485a21df1ccd7e31b3c45ce76a/css/index.css#L65-L92](https://github.com/inf24tig38/inf24tig38/tree/main/Valida%C3%A7%C3%B5es%20W3C)) |
 
