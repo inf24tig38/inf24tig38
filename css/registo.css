@@ -148,5 +148,24 @@ input::placeholder {
   font-style: italic;
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .campo input[type="text"],
+    .campo input[type="email"],
+    .campo input[type="password"],
+    .campo select,
+    .campo textarea {
+        width: 90%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
 
 

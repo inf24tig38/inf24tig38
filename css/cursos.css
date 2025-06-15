@@ -125,3 +125,23 @@ figure {
         margin-left: 0;  
     }
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .area {
+        padding: 10px;
+    }
+
+    .disciplinas ul li {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
+
