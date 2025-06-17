@@ -58,7 +58,7 @@ section article {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 20%;
   margin-left: 79%;
-  margin-top: 26%;
+  margin-top: 22%;
 }
 
 
@@ -132,7 +132,7 @@ em {
 }
 
 mark {
-    background-color: #d1a15f; 
+    background-color: red; 
     color: #ffffff; 
     padding: 0.2em; 
     border-radius: 5px; 
