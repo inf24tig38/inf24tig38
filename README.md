@@ -1,54 +1,62 @@
-# My example work assignment Title
+# inf24tig38
 
 Repository to host the project developed for 'some class', a fisrt year subject at SOMESCHOOL. Developed by Group ALPHA : [@MarcoOliveira](https://github.com/marcoamarooliveira), [add others].
 
-## Short theme description
+## Descrição do tema
 
-An example report using markdown on Github. This documentation is writen using [Markdown](https://www.markdownguide.org/). Here is a [link to the basic syntax](https://www.markdownguide.org/basic-syntax), but an [extended syntax](https://www.markdownguide.org/extended-syntax/) is also available. If you're starting with Markdown, you may want to try a [Markdown Tutorial](https://www.markdowntutorial.com/) and read the [getting started](https://www.markdownguide.org/getting-started/) section.
+Este trabalho foi desenvolvido no âmbito da licenciatura em Informática (1.º ano) na disciplina de Tecnologia de Internet e tem como objetivo aplicar os conhecimentos adquiridos nas aulas sobre desenvolvimento web. A inspiração para o projeto surgiu após observar vários sites de universidades reais, o que me levou a imaginar e criar o site de uma universidade fictícia: a Universidade das Caxinas.
 
-## Repository organization
+O principal foco não foi criar um site profissional, mas sim explorar e praticar o uso das várias ferramentas ensinadas, como HTML5, CSS3, JavaScript, XML e XSD. Ao longo do projeto, tentei aplicar o máximo possível dos conceitos abordados nas aulas, experimentando diferentes funcionalidades e efeitos para consolidar a aprendizagem de forma prática.
 
-_Please help reader navigate around describing how the repository is organized by providing links_
-* **Source code** is in the [src folder](src/).
-* Report chapters are in [doc folder](doc/).
+- 4 páginas estáticas html
+- Documento XML
+- Documento XSD
+- Ficheiros de estilo css
 
-## Gallery 1
+## Organização do repositório
 
-_Please provide a galery of the final result, with small images_
-A [table](https://www.markdownguide.org/extended-syntax/#tables) may be usefull to organize the images.
+Código fonte:
+  - Página inicial - [index.html](https://inf24tig38.netlify.app/) 
+  - Página de cursos - [cursos.html](https://inf24tig38.netlify.app/cursos) 
+  - Página das registo - [registo.html](https://inf24tig38.netlify.app/registo) 
+  - Página sobre - [sobre.html](https://inf24tig38.netlify.app/sobre) 
+  - Página inicial css - [index.css](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/css/index.css#L1-L273)
+  - Página de cursos css - [cursos.css](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/css/cursos.css#L1-L127)
+  - Página das registo css - [registo.css](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/css/registo.css#L1-L147)
+  - Página sobre css - [sobre.css](https://github.com/inf24tig38/inf24tig38/blob/ea9cf5b42baa06dfa69c9076a6836dfd38bb6f96/css/sobre.css#L1-L120)
+  - Funcionalidades JavaScript - [JavaScript](https://github.com/inf24tig38/inf24tig38/blob/52352c881d5bc097f0f96245288bcc63c0c078bc/js/script.js#L1-L68)
+  - Dados da universidade - universidade.xml - [universidade.xml](https://github.com/inf24tig38/inf24tig38/blob/main/xml/universidade.xml) 
+  - Schema XML para validação - universidade.xsd - [universidade.xsd](https://github.com/inf24tig38/inf24tig38/blob/main/xml/universidade.xsd)
+    
+Documentação: 
 
-## Technologies
+[Pasta Da Documentação](https://github.com/inf24tig38/inf24tig38/tree/52352c881d5bc097f0f96245288bcc63c0c078bc/Doc)
+- [c1.md](https://github.com/inf24tig38/inf24tig38/blob/main/Doc/c1.md) - Apresentação do projeto 
+- [c2.md](https://github.com/inf24tig38/inf24tig38/blob/main/Doc/c2.md) - Interface do utilizador 
+- [c3.md](https://github.com/inf24tig38/inf24tig38/blob/main/Doc/c3.md) - Produto final 
+- [c4.md](https://github.com/inf24tig38/inf24tig38/blob/main/Doc/c4.md) - Apresentação 
 
-_Indicate the technologies you have used in this assignment. Please provide links for the user to read more about those technologies._
+
+## Galeria de prinscreens
+
+![Diagrama do Site](../img/Diagrama.png)
+
+## Tecnologias utilizadas
+
 * XML
 * HTML5 + CSS3
 * Javascript
-* PHP
-* nodeJS
-* _Any other?_
-
-### Frameworks and Libraries
-
-_Did you use any aditional libraries? Describe them here._
-* Docker
-* Multipass
-* NodeJS
-* JQuery
-* Laravel
-* Bootstrap
 
 ## Report
-_Please add at least on section (a file) per Chapter. But you can add more._
 
-### Project presentation
-* Chapter 1: [Project presentation](doc/c1.md)
-### User Interface 
-* Chapter 2: [User Interface Prototype and Sitemap](doc/c2.md)
-### Product
-* Chapter 3: [Product](doc/c3.md)
-### Presentation
-* Chapter 4: [Presentation](doc/c4.md)
+### Apresentação do Projeto
+* Capítulo 1: [Apresentação do Projeto](https://github.com/inf24tig38/inf24tig38/blob/main/Doc/c1.md)
+### Interface do Utilizador
+* Capítulo 2: [Interface do Utilizador](https://github.com/inf24tig38/inf24tig38/blob/main/Doc/c2.md)
+### Produto
+* Capítulo 3: [Produto](https://github.com/inf24tig38/inf24tig38/blob/main/Doc/c3.md)
+### Apresentação
+* Capítulo 4: [Apresentação](https://github.com/inf24tig38/inf24tig38/blob/main/Doc/c4.md)
 
 ## Team
-* Marco Amaro Oliveira [@MarcoOliveira](https://github.com/marcoamarooliveira)
-* Other team members
+* Jorge Miguel Castro Espogeira [@JorgeEspogeira](https://github.com/inf24tig38/inf24tig38)
