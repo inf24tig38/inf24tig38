@@ -1,6 +1,6 @@
 # inf24tig38
 
-Repository to host the project developed for 'some class', a fisrt year subject at SOMESCHOOL. Developed by Group ALPHA : [@MarcoOliveira](https://github.com/marcoamarooliveira), [add others].
+Repositório para alojar o projeto desenvolvido para 'Tecnologias Internet', uma unidade curricular do primeiro ano da Universidade da Maia. Desenvolvido pelo Grupo inf24tig38: [@JorgeEspogeira](https://github.com/inf24tig38/inf24tig38/tree/52352c881d5bc097f0f96245288bcc63c0c078bc).
 
 ## Descrição do tema
 
