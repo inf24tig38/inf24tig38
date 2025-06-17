@@ -58,5 +58,5 @@ Documentação:
 ### Apresentação
 * Capítulo 4: [Apresentação](https://github.com/inf24tig38/inf24tig38/blob/main/Doc/c4.md)
 
-## Team
+## Equipa
 * Jorge Miguel Castro Espogeira [@JorgeEspogeira](https://github.com/inf24tig38/inf24tig38)
