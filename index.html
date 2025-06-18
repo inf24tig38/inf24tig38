@@ -20,45 +20,69 @@
             </nav>
         </header>
 
+        <button onclick="toggleDescricao()">Ocultar |---------- </button>
+
         <main>
             <h1>Universidade das Caxinas</h1>
             <h2>"Onde o saber navega com as ondas do Atlântico"</h2>
 
             <section class="sobre">
-                <h2>Sobre a Universidade</h2>
-                <p>A <strong><em>Universidade das Caxinas</em></strong> é uma instituição de ensino superior inovadora, 
+                <div id="descricao">    
+                    <h2>Sobre a Universidade</h2>
+                    <p>A <strong><em>Universidade das Caxinas</em></strong> é uma instituição de ensino superior inovadora, 
                     enraizada na tradição marítima da região de <mark>Caxinas</mark>.<br> Fundada em 2025, 
                     a universidade visa preservar e promover o legado cultural, 
                     histórico e social da comunidade piscatória, ao mesmo tempo que abraça as exigências do mundo moderno.</p>
 
-                <p>Situada à beira-mar, a universidade oferece cursos nas áreas de Ciências do Mar,<br> 
+                    <p>Situada à beira-mar, a universidade oferece cursos nas áreas de Ciências do Mar,<br> 
                     Gestão de Recursos Naturais, Antropologia Cultural, Artes e Design e Tecnologias da Informação, 
                     com especial foco na sustentabilidade e inovação.</p>
 
                     <a href="registo.html" class="highlight-animado">Inscreve-te já</a>
+                </div>
             </section>                 
+
             <section>
                 <article>
-                    <h3>Mensagem do Presidente</h3>
+                    <h3>O Presidente</h3>
                     <p>A Universidade das Caxinas dá-te as boas-vindas e deseja-te um excelente percurso académico, cheio de conquistas!</p>
                 </article>
             </section>
+
             <figure>
                 <img src="../img/imagem_uni.jpg" alt="Imagem da Universidade das Caxinas" width="400">
                 <figcaption>Vista da Universidade das Caxinas.</figcaption>
             </figure>        
-        </main> <footer>
+        </main>
+
+        <footer>
             <div id="modalOverlay" style="display:none;">
-             <div id="modalBox">
-                <div id="conteudoModal"></div>
-                <button id="closeBtn">Fechar</button>
-             </div>
+                <div id="modalBox">
+                    <div id="conteudoModal"></div>
+                    <button id="closeBtn">Fechar</button>
+                </div>
             </div>
 
             <a href="XML/universidade.xml" download>Descarregar XML</a>
             <button id="autorBtn">Autor</button>
         </footer>
+
         <script src="../js/script.js"></script>
+
+        <script>
+            function toggleDescricao() {
+                var elemento = document.getElementById("descricao");
+                var botao = document.querySelector("button");
+
+                if (elemento.style.display !== "none") {
+                    elemento.style.display = "none";  
+                    botao.textContent = "Mostrar Descrição"; 
+                } else {
+                    elemento.style.display = "block"; 
+                    botao.textContent = "Ocultar Descrição";  
+                }
+            }
+        </script>
     </div>
 </body>
 </html>

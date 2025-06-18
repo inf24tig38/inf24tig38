@@ -4,7 +4,7 @@
 
 Este projeto consistiu na criação de um site estático com o tema “Ensino”, desenvolvido no âmbito da disciplina de Tecnologias de Internet. A ideia partiu da inspiração em sites de universidades reais, mas o objetivo nunca foi criar algo profissional, e sim praticar o que foi ensinado ao longo do semestre. 
 
-O site da fictícia "Universidade das Caxinas" foi construído gradualmente, acompanhando os conteúdos dados nas aulas e adaptando-se à medida que novas tecnologias eram aprendidas, como HTML5, CSS3, JavaScript, XML e XSD.
+O site da fictícia "Universidade das Caxinas" foi construído gradualmente, acompanhando os conteúdos dados nas aulas e adaptando-se à medida que novas tecnologias eram aprendidas, como HTML5, CSS3, XML , XSD e por fim JavaScript.
 
 ## 2. Interface com o Utilizador
 

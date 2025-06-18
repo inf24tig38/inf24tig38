@@ -22,14 +22,50 @@
   </cursos>
 
   <inscricoes>
-    <inscricao>
-      <nome>Exemplo Teste</nome>
-      <email>teste@caxinas.pt</email>
-      <password>segredo123</password>
-      <genero>Outro</genero>
-      <grau_academico>12º ano</grau_academico>
-      <licenciatura>Informática</licenciatura>
-      <mensagem>Estou interessado em saber mais sobre alojamento e bolsas.</mensagem>
-    </inscricao>
+  <inscricao>
+    <nome>Gonçalo Cidras</nome>
+    <email>GonçaloCidras@umaia.pt</email>
+    <password>naotedigo</password>
+    <genero>Outro</genero>
+    <grau_academico>12º ano</grau_academico>
+    <licenciatura>Informática</licenciatura>
+    <mensagem>Estou interessado em saber mais sobre alojamento e bolsas.</mensagem>
+  </inscricao>
+  <inscricao>
+    <nome>César Ramos</nome>
+    <email>CésarRamos@umaia.pt</email>
+    <password>naoseiapassword</password>
+    <genero>Masculino</genero>
+    <grau_academico>12º ano</grau_academico>
+    <licenciatura>Psicologia</licenciatura>
+    <mensagem>Gostaria de saber mais sobre as oportunidades de estágios na área de Psicologia.</mensagem>
+  </inscricao>
+  <inscricao>
+    <nome>Camila Olim</nome>
+    <email>CamilaOlim@umaia.pt</email>
+    <password>alternativa</password>
+    <genero>Feminino</genero>
+    <grau_academico>12º ano</grau_academico>
+    <licenciatura>Engenharia Civil</licenciatura>
+    <mensagem>Estou muito interessado nas disciplinas de construção e gestão de obras.</mensagem>
+  </inscricao>
+  <inscricao>
+    <nome>Maria Pereira</nome>
+    <email>maria.pereira@caxinas.pt</email>
+    <password>maria9876</password>
+    <genero>Feminino</genero>
+    <grau_academico>12º ano</grau_academico>
+    <licenciatura>Gestão</licenciatura>
+    <mensagem>Gostaria de saber mais sobre o curso de Gestão e as possibilidades de emprego após a licenciatura.</mensagem>
+  </inscricao>
+  <inscricao>
+    <nome>Pedro Fernandes</nome>
+    <email>pedro.fernandes@caxinas.pt</email>
+    <password>pedro1234</password>
+    <genero>Masculino</genero>
+    <grau_academico>12º ano</grau_academico>
+    <licenciatura>Ciências da Computação</licenciatura>
+    <mensagem>Quero saber mais sobre as tecnologias utilizadas no curso e as perspectivas de carreira em TI.</mensagem>
+  </inscricao>
   </inscricoes>
 </universidade>
